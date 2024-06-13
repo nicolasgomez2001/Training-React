@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 10px;
+    background-color: #f0f0f0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    /* Asegura que el header esté por encima de otros elementos */
+}
+
+.logo img {
+    height: 60px;
+    /* Ajusta la altura del logo según tus necesidades */
+}
+
+nav {
+    display: flex;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    margin-left: 20px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.nav-list li a:hover {
+    color: #c1d72f;
+}
+
+.nav-list .button {
+    background-color: #c1d72f;
+    /* Color de fondo del botón */
+    color: black;
+    /* Color del texto */
+    border-radius: 4px;
+    /* Esquinas redondeadas */
+    padding: 10px 20px;
+    /* Espaciado interno */
+    border: none;
+    /* Sin borde */
+    cursor: pointer;
+    /* Cambia el cursor a un puntero de mano */
+}
+
+.nav-list .button:hover {
+    background-color: #c1d72f;
+    color: black;
+    /* Color de fondo al pasar el ratón */
+}
+
+.content {
+    padding-top: 70px;
+    /* Añade un relleno superior para evitar que el contenido quede oculto bajo el header */
+}
+
+.container {
+    background-color: #c1d72f;
+    padding: 50px;
+    padding-bottom: -30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: -10%;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.form-groups {
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.form-groups label {
+    display: contents;
+    margin-bottom: 0px;
+    justify-content: center;
+    width: 500px;
+}
+
+.form-groups input[type="text"],
+.form-groups input[type="email"] {
+    width: 100%;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+.form-group-checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-group-checkbox input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+
+
+.form-groups {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-groups button {
+    padding: 10px 20px;
+    border: black;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20%;
+
+}
+
+.form-groups button:hover {
+    background-color: #eee;
+}
